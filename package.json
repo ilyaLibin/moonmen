@@ -1,0 +1,25 @@
+{
+  "name": "moonmen",
+  "version": "1.0.0",
+  "description": "On demand image manipulation service. Response to HTTP get request pull image from your bucket and optimized accourding to URL params",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilyaLibin/moonmen.git"
+  },
+  "keywords": [
+    "image",
+    "optimization",
+    "service",
+    "ondemand"
+  ],
+  "author": "Ilya Libin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilyaLibin/moonmen/issues"
+  },
+  "homepage": "https://github.com/ilyaLibin/moonmen#readme"
+}
