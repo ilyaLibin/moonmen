@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/ilyaLibin/moonmen#readme",
   "dependencies": {
+    "jimp": "^0.2.28",
     "sharp": "^0.19.0"
-  }
+  },
+  "devtoolsFrontendUrl": "chrome-devtools://devtools/bundled/inspector.html?experiments=true&v8only=true&ws=127.0.0.1:9229/0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e",
+  "id": "0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e",
+  "type": "node",
+  "url": "file://",
+  "webSocketDebuggerUrl": "ws://127.0.0.1:9229/0f2c936f-b1cd-4ac9-aab3-f63b0f33d55e"
 }
