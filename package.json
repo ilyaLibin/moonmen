@@ -1,7 +1,7 @@
 {
   "name": "moonmen",
   "version": "1.0.0",
-  "description": "On demand image manipulation service. Response to HTTP get request pull image from your bucket and optimized accourding to URL params",
+  "description": "On demand image manipulation service. Response to HTTP GET request pulls image from bucket and optimizes accourding to URL params",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/ilyaLibin/moonmen/issues"
   },
-  "homepage": "https://github.com/ilyaLibin/moonmen#readme"
+  "homepage": "https://github.com/ilyaLibin/moonmen#readme",
+  "dependencies": {
+    "sharp": "^0.19.0"
+  }
 }
