@@ -9,7 +9,6 @@ const moonmen = new Moonmen();
 const ORIGIN = 'https://blog.ilyalibin.com';
 
 app.get('/:hash_uid/:width/*', async (req, res) => {
-  debugger
   const width = parseInt(req.params.width);
 
   const data = await moonmen.optimize(
